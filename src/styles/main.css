@@ -82,9 +82,10 @@
 }
 
 .card-versus__container{
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    align-content: center;
     padding-top: 0.1rem;
     height: 300px;
 }
@@ -118,7 +119,7 @@
 .card-infield{
     height: 11.2rem;
     width: 8rem;
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff;
     /* border: 1px solid blue; */
     border-radius: 8px;
 }
@@ -130,4 +131,9 @@ transition: transform 0.2s;
 
 .card:hover{
     transform: scale(1.2);
+}
+
+
+.debug{
+    border: 1px solid red;
 }
